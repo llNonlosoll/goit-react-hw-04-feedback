@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { Statistics } from './statistics/statistics';
 import { FeedbackOptions } from './feedbackOptions/feedbackOptions';
-import { Section } from './sectionTitle/sectionTitle';
+import { Section } from './SectionTitle/SectionTitle';
 import { Notification } from './notification/notification';
 
 import { Container } from './App.styled';
