@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Container } from './Statistix.styled';
 
 export const Statistics = ({
   good,
@@ -8,7 +9,7 @@ export const Statistics = ({
   positivePercentage,
 }) => {
   return (
-    <div>
+    <Container>
       <p>
         Good: <span>{good}</span>
       </p>
@@ -24,7 +25,7 @@ export const Statistics = ({
       <p>
         Positive feedback: <span>{positivePercentage} %</span>
       </p>
-    </div>
+    </Container>
   );
 };
 

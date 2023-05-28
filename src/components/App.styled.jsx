@@ -6,4 +6,8 @@ export const Container = styled.div`
   margin-right: auto;
 
   padding: 15px;
+
+  background-color: azure;
+  border: 3px solid black;
+  border-radius: 4px;
 `;
