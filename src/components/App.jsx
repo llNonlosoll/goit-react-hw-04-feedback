@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { Statistics } from './statistics/statistics';
-import { FeedbackOptions } from './feedbackOptions/feedbackOptions';
-import { Section } from './section/sectionTitle';
-import { Notification } from './notification/notification';
+import { Statistics } from './StatisticsComponent/Statistics';
+import { FeedbackOptions } from './FeedbackComponent/FeedbackOptions';
+import { Section } from './SectionComponent/SectionTitle';
+import { Notification } from './NotificationComponent/Notification';
 
 import { Container } from './App.styled';
 
